@@ -1,19 +1,12 @@
-import './App.css'
-
+import React from 'react';
+import Navbar from './components/navbar';
 function App() {
-  
-
   return (
-    <>
-    <title>CACECOB</title>
-      <h1 class="text-3xl font-bold underline">
-       Hello world!
-      </h1>
-
-      <h2 class="text-2xl font-semibold">esto es una prueba</h2>
-      
-    </>
-  )
+    <div>
+      <Navbar />
+      {/* Otros componentes o contenido */}
+    </div>
+  );
 }
 
-export default App
+export default App;
